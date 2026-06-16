@@ -416,13 +416,21 @@
         "uuid": "c13cbf2f-9bb3-45e9-94dd-cb1d58494ac8"
       }
     ],
-    "used_designators": "D1,U1",
+    "used_designators": "#PWR1-6,D1-2,U1-5,R1-2,C1-2",
     "variants": []
   },
   "sheets": [
     [
       "c13cbf2f-9bb3-45e9-94dd-cb1d58494ac8",
       "Root"
+    ],
+    [
+      "f13eef45-4c75-4fee-8558-f4b818dd9f10",
+      "Power"
+    ],
+    [
+      "46c31b70-4e7c-4552-8590-62421331d69a",
+      "Detector"
     ]
   ],
   "text_variables": {},
