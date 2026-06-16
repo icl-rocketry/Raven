@@ -1251,6 +1251,26 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 43.18) (xy 240.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a69f7e-f27e-467d-8dee-12f9e53e9820")
+	)
+	(wire
+		(pts
+			(xy 232.41 46.99) (xy 240.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd7b97d-14a4-461e-aae5-d17aad5bd774")
+	)
+	(wire
+		(pts
 			(xy 130.81 123.19) (xy 130.81 128.27)
 		)
 		(stroke
@@ -1258,6 +1278,36 @@
 			(type default)
 		)
 		(uuid "6cf2c18b-1d1a-4556-84c9-109a21834185")
+	)
+	(wire
+		(pts
+			(xy 223.52 110.49) (xy 228.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729f2fd9-96e3-427d-b717-a3386a306644")
+	)
+	(wire
+		(pts
+			(xy 223.52 106.68) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d3d99a-8764-4bbc-8910-6e4ec931a0fc")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e3621f-81ce-4b76-9941-93d85254c808")
 	)
 	(wire
 		(pts
@@ -1269,7 +1319,77 @@
 		)
 		(uuid "b953f8b7-7c39-4ccc-84eb-5ec521ca5214")
 	)
+	(wire
+		(pts
+			(xy 100.33 54.61) (xy 107.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28414f1-b01c-4956-aa03-b4d1861febb0")
+	)
+	(wire
+		(pts
+			(xy 232.41 39.37) (xy 240.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2772a89-ddf0-4c70-adf3-cd9b2e887755")
+	)
+	(label "3.3V"
+		(at 232.41 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2517dba7-7477-4a62-a3bc-c5c4bd6e7ef1")
+	)
 	(label "5V"
+		(at 223.52 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30250f81-f910-444f-ad65-ef59c88ca8bb")
+	)
+	(label "5V"
+		(at 232.41 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39355faa-5f18-4f37-99a6-c8cff32a1a36")
+	)
+	(label "50V"
+		(at 232.41 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44740f30-1f4f-4fc1-a688-83989d9db0d2")
+	)
+	(label "Detector_Out"
+		(at 223.52 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ee7aa85-1a37-43b4-ac3a-b841cba4a4b4")
+	)
+	(label "3.3V"
 		(at 125.73 41.91 0)
 		(effects
 			(font
@@ -1277,7 +1397,27 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8bd525a6-9d76-433d-9744-fbf7d765b9dc")
+		(uuid "5c3c53d3-f1ff-4e2e-a5b7-01dc9a005df2")
+	)
+	(label "Detector_Out"
+		(at 100.33 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec2df06d-6f91-4b7a-97fa-6c4a9de98871")
+	)
+	(label "50V"
+		(at 223.52 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fce56b19-30e1-4aab-8d9a-d3c516d576c1")
 	)
 	(symbol
 		(lib_id "MCU_Espressif:ESP32-S3")
@@ -1642,6 +1782,36 @@
 				(justify left top)
 			)
 		)
+		(pin "5V" output
+			(at 228.6 106.68 180)
+			(uuid "ad2fb812-482f-43a0-8409-e7aa89e0c6b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "50V" output
+			(at 228.6 110.49 180)
+			(uuid "2f7bc9ec-c82f-48e9-bb4a-16bb61bab11e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Detector_Out" input
+			(at 228.6 114.3 180)
+			(uuid "15bf5299-2375-4e6f-a64f-69d98a8ac5b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "raven-main"
 				(path "/c13cbf2f-9bb3-45e9-94dd-cb1d58494ac8"
@@ -1652,7 +1822,7 @@
 	)
 	(sheet
 		(at 240.03 35.56)
-		(size 12.7 31.75)
+		(size 12.7 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1678,7 +1848,7 @@
 			)
 		)
 		(property "Sheetfile" "raven-power.kicad_sch"
-			(at 240.03 67.8946 0)
+			(at 240.03 52.6546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1686,6 +1856,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 240.03 39.37 180)
+			(uuid "c6378c6f-cd39-4b7a-a671-7ec93f4ca186")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 240.03 43.18 180)
+			(uuid "0ff94cf4-87e3-4288-a859-68e69b9b7b63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "50V" input
+			(at 240.03 46.99 180)
+			(uuid "ecbf01e5-8b17-49cf-9f13-33634cb81d4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
