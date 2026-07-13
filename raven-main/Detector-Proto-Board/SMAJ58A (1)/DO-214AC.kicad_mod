@@ -1,0 +1,51 @@
+
+(footprint DO-214AC (layer F.Cu) (tedit 6A54C648)
+  (descr "Diode")
+  (attr smd)
+  (fp_text reference REF** (at 0.0 -2.413 0) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (fp_text value DO-214AC (at 1.524 2.667 0) (layer F.Fab)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (pad C smd rect (at -2.025 0.0) (size 1.8 2.4) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad A smd rect (at 2.025 0.0) (size 1.8 2.4) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (fp_line (start -2.15 -1.3) (end 2.15 -1.3) (layer F.Fab) (width 0.2032))
+  (fp_line (start 2.15 -1.3) (end 2.15 1.3) (layer F.Fab) (width 0.2032))
+  (fp_line (start 2.15 1.3) (end -2.15 1.3) (layer F.Fab) (width 0.2032))
+  (fp_line (start -2.15 1.3) (end -2.15 -1.3) (layer F.Fab) (width 0.2032))
+  (fp_line (start -0.885 -1.3) (end 0.875 -1.3) (layer F.SilkS) (width 0.2032))
+  (fp_line (start 0.875 1.3) (end -0.885 1.3) (layer F.SilkS) (width 0.2032))
+  (fp_poly
+    (pts
+      (xy -2.825 -1.1)
+      (xy -2.175 -1.1)
+      (xy -2.175 1.1)
+      (xy -2.825 1.1)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 2.825 1.1)
+      (xy 2.175 1.1)
+      (xy 2.175 -1.1)
+      (xy 2.825 -1.1)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.965 -1.225)
+      (xy -0.29 -1.225)
+      (xy -0.29 1.225)
+      (xy -0.965 1.225)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -1.75 -1.225)
+      (xy -1.075 -1.225)
+      (xy -1.075 1.225)
+      (xy -1.75 1.225)
+    ) (layer F.Fab) (width 0.01)
+  )
+)

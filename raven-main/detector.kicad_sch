@@ -2854,6 +2854,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 31.75) (xy 278.13 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7db6f46-1293-46a8-b898-b6aaab055491")
+	)
+	(wire
+		(pts
 			(xy 36.83 34.29) (xy 36.83 40.64)
 		)
 		(stroke
@@ -3214,16 +3224,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 31.75) (xy 271.78 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9e6f88e-5d72-4435-8729-cf3abf6d50c3")
-	)
-	(wire
-		(pts
 			(xy 176.53 140.97) (xy 179.07 140.97)
 		)
 		(stroke
@@ -3371,6 +3371,16 @@
 			(type default)
 		)
 		(uuid "fea28035-39af-4884-973d-1a4ac7ce62a3")
+	)
+	(wire
+		(pts
+			(xy 262.89 31.75) (xy 267.97 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea2cd4b-8176-45e7-9425-c7fde6baa895")
 	)
 	(wire
 		(pts
@@ -4666,7 +4676,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 31.75 0)
+		(at 278.13 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4677,7 +4687,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e6f83d8-716e-45ea-afd2-3427475b727d")
 		(property "Reference" "#PWR061"
-			(at 271.78 38.1 0)
+			(at 278.13 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4688,7 +4698,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 36.83 0)
+			(at 278.13 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4698,7 +4708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 31.75 0)
+			(at 278.13 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +4719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 31.75 0)
+			(at 278.13 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4730,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 31.75 0)
+			(at 278.13 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,6 +5149,86 @@
 			(project "raven-main"
 				(path "/c13cbf2f-9bb3-45e9-94dd-cb1d58494ac8/8ed86ece-68a5-4e2a-83b7-03315ba32bdd"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 270.51 31.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b08b6cb-b9e8-46ea-87a2-66a5d298f480")
+		(property "Reference" "R37"
+			(at 270.51 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 270.51 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 270.51 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 270.51 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80f4e67e-5500-48db-a87d-81c452918f32")
+		)
+		(pin "2"
+			(uuid "ffbaf675-9537-4a16-834a-6bd1d3140a1a")
+		)
+		(instances
+			(project "raven-main"
+				(path "/c13cbf2f-9bb3-45e9-94dd-cb1d58494ac8/8ed86ece-68a5-4e2a-83b7-03315ba32bdd"
+					(reference "R37")
 					(unit 1)
 				)
 			)
