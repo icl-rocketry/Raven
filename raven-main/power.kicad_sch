@@ -6000,7 +6000,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10.7k"
 			(at 118.11 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10168,7 +10168,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20m"
 			(at 138.43 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10682,7 +10682,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100"
 			(at 128.27 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
