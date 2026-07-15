@@ -4608,6 +4608,7 @@
 		)
 		(uuid "3d8e2435-a65d-4628-866c-8590f9d3a638")
 		(property "Netclass" "USB"
+		(property "Net Class" "USB"
 			(at 99.06 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -4642,6 +4643,7 @@
 		)
 		(uuid "5ac0e0c5-36e1-49db-bda3-7da2bd0076f6")
 		(property "Netclass" "USB"
+		(property "Net Class" "USB"
 			(at 99.06 163.83 0)
 			(hide yes)
 			(show_name no)
