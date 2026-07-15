@@ -3449,7 +3449,7 @@
 		(uuid "60296b96-be34-423b-9de3-bf5e8556e59f")
 	)
 	(hierarchical_label "Detector_Out_A"
-		(shape input)
+		(shape output)
 		(at 234.95 62.23 0)
 		(effects
 			(font
