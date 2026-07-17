@@ -2,9 +2,121 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 88625785-cc97-4732-ad3f-8e674b21ece1)
+	(uuid "88625785-cc97-4732-ad3f-8e674b21ece1")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 41.91 34.29)
+		(size 13.97 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "60b46f22-bcfc-40bc-9e34-a9d2487582f1")
+		(property "Sheetname" "power"
+			(at 41.91 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 41.91 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "detector-breakout"
+				(path "/88625785-cc97-4732-ad3f-8e674b21ece1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 34.29)
+		(size 15.24 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c7feccf5-78d5-4b30-aeca-561be2c12d04")
+		(property "Sheetname" "detector"
+			(at 77.47 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "detector.kicad_sch"
+			(at 77.47 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Detector_Out_A" output
+			(at 92.71 36.83 0)
+			(uuid "9129ed6a-f162-4f61-92e2-7c062ab82997")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Detector_Out_B" input
+			(at 92.71 39.37 0)
+			(uuid "812d9862-6c89-4b4f-b4cc-7df530f7e336")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "detector-breakout"
+				(path "/88625785-cc97-4732-ad3f-8e674b21ece1"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
