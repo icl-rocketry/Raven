@@ -1,0 +1,1385 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-07-29T16:16:00",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [],
+    "source": "Detector-Proto-Board.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 7.4176 mm",
+                    "pos": {
+                        "x": 116.845,
+                        "y": 86.735
+                    },
+                    "uuid": "8b34d046-134e-4599-9ee8-b01d7ea292a4"
+                },
+                {
+                    "description": "Pad 2 [GND] of R34 on F.Cu",
+                    "pos": {
+                        "x": 129.465,
+                        "y": 86.485
+                    },
+                    "uuid": "1882e95c-e8fe-45e3-8538-2ed9ee87436b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C40 on F.Cu",
+                    "pos": {
+                        "x": 132.325,
+                        "y": 84.485
+                    },
+                    "uuid": "5361679c-e492-4609-a112-329fe11252c0"
+                },
+                {
+                    "description": "Pad 2 [GND] of R34 on F.Cu",
+                    "pos": {
+                        "x": 129.465,
+                        "y": 86.485
+                    },
+                    "uuid": "1882e95c-e8fe-45e3-8538-2ed9ee87436b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 1.1349 mm",
+                    "pos": {
+                        "x": 120.317499,
+                        "y": 82.147499
+                    },
+                    "uuid": "af121348-de7b-41cd-a2bf-908320e6c808"
+                },
+                {
+                    "description": "Pad 1 [+5V] of R33 on F.Cu",
+                    "pos": {
+                        "x": 128.445,
+                        "y": 84.495
+                    },
+                    "uuid": "131c755f-2a44-4083-a4fa-69d481238da8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/Vped] of R32 on F.Cu",
+                    "pos": {
+                        "x": 115.427498,
+                        "y": 86.815
+                    },
+                    "uuid": "f6b552a8-802b-4de2-aa47-72eceb6f6c5c"
+                },
+                {
+                    "description": "Pad 1 [/Vped] of R34 on F.Cu",
+                    "pos": {
+                        "x": 128.445,
+                        "y": 86.485
+                    },
+                    "uuid": "2d8a78d0-e8aa-4ca2-b4a3-f9eea3ca64b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [/Vped] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "5e291eb9-aaaf-499e-9c20-8a3de5c05373"
+                },
+                {
+                    "description": "Pad 1 [/Vped] of R32 on F.Cu",
+                    "pos": {
+                        "x": 115.427498,
+                        "y": 86.815
+                    },
+                    "uuid": "f6b552a8-802b-4de2-aa47-72eceb6f6c5c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [/Vped] of R33 on F.Cu",
+                    "pos": {
+                        "x": 129.465,
+                        "y": 84.495
+                    },
+                    "uuid": "0454863c-c3ab-4eea-97c2-a88c9e30cc4f"
+                },
+                {
+                    "description": "Pad 1 [/Vped] of R34 on F.Cu",
+                    "pos": {
+                        "x": 128.445,
+                        "y": 86.485
+                    },
+                    "uuid": "2d8a78d0-e8aa-4ca2-b4a3-f9eea3ca64b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/Vped] of C40 on F.Cu",
+                    "pos": {
+                        "x": 131.365,
+                        "y": 84.485
+                    },
+                    "uuid": "d3830aa0-9aa4-41e3-b383-0f71bd1b8131"
+                },
+                {
+                    "description": "Pad 2 [/Vped] of R33 on F.Cu",
+                    "pos": {
+                        "x": 129.465,
+                        "y": 84.495
+                    },
+                    "uuid": "0454863c-c3ab-4eea-97c2-a88c9e30cc4f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 116.277499,
+                        "y": 86.735
+                    },
+                    "uuid": "1b5ea917-fadb-4bdc-875b-84ab713ee50a"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 111.292499,
+                        "y": 84.865
+                    },
+                    "uuid": "3507dbb4-4603-487f-a974-be8e7154b3d5"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 116.187499,
+                        "y": 81.795
+                    },
+                    "uuid": "5e3b128d-3694-4a2c-9e2f-c99c5376b976"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and /Vped)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.2700 mm",
+                    "pos": {
+                        "x": 114.262499,
+                        "y": 75.063
+                    },
+                    "uuid": "09db7b5e-fb6e-4f91-a4dc-d0d5d401ecff"
+                },
+                {
+                    "description": "Pad 3 [/Vped] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "5e291eb9-aaaf-499e-9c20-8a3de5c05373"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and +5V)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of R28 on F.Cu",
+                    "pos": {
+                        "x": 110.4175,
+                        "y": 86.815
+                    },
+                    "uuid": "3f6bacda-bf6f-4c0f-9f63-0c3815fd5026"
+                },
+                {
+                    "description": "Track [+5V] on F.Cu, length 0.5800 mm",
+                    "pos": {
+                        "x": 110.4175,
+                        "y": 87.394999
+                    },
+                    "uuid": "c9ce95b5-7b7d-49a8-b147-e7df140e8647"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1100 mm)",
+            "items": [
+                {
+                    "description": "Track [+5V] on F.Cu, length 1.3859 mm",
+                    "pos": {
+                        "x": 109.437499,
+                        "y": 88.375
+                    },
+                    "uuid": "22afef86-bcaf-448d-8a1d-84d6884c24db"
+                },
+                {
+                    "description": "Pad 2 [GND] of R28 on F.Cu",
+                    "pos": {
+                        "x": 110.4175,
+                        "y": 86.815
+                    },
+                    "uuid": "3f6bacda-bf6f-4c0f-9f63-0c3815fd5026"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "12ce84e8-6470-42e5-8908-be0affbdcd75"
+                },
+                {
+                    "description": "Pad 3 [/Vped] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "5e291eb9-aaaf-499e-9c20-8a3de5c05373"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets /Vped and GND)",
+            "items": [
+                {
+                    "description": "Pad 3 [/Vped] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "5e291eb9-aaaf-499e-9c20-8a3de5c05373"
+                },
+                {
+                    "description": "Track [GND] on F.Cu, length 0.0071 mm",
+                    "pos": {
+                        "x": 115.527499,
+                        "y": 75.068
+                    },
+                    "uuid": "d14815fa-4b50-4f40-ae9f-639c3041ca30"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets /Vped and GND)",
+            "items": [
+                {
+                    "description": "Pad 3 [/Vped] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "5e291eb9-aaaf-499e-9c20-8a3de5c05373"
+                },
+                {
+                    "description": "Track [GND] on F.Cu, length 0.0212 mm",
+                    "pos": {
+                        "x": 115.517499,
+                        "y": 75.048
+                    },
+                    "uuid": "7832487d-839c-4812-8ac1-dc051f88cefe"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and /Vped)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.7700 mm",
+                    "pos": {
+                        "x": 115.427498,
+                        "y": 86.815
+                    },
+                    "uuid": "47e371e4-1280-4a34-b43d-bbda7041496d"
+                },
+                {
+                    "description": "Pad 1 [/Vped] of R32 on F.Cu",
+                    "pos": {
+                        "x": 115.427498,
+                        "y": 86.815
+                    },
+                    "uuid": "f6b552a8-802b-4de2-aa47-72eceb6f6c5c"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [/Vped] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "5e291eb9-aaaf-499e-9c20-8a3de5c05373"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "12ce84e8-6470-42e5-8908-be0affbdcd75"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4500 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 99.04,
+                        "y": 71.99
+                    },
+                    "uuid": "72e05464-a7ab-4cba-a736-ab015b7ca527"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of H104",
+                    "pos": {
+                        "x": 102.29,
+                        "y": 91.98
+                    },
+                    "uuid": "7d8f33e6-298c-4fe6-88ae-d3349e0deee5"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4800 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 102.29,
+                        "y": 68.74
+                    },
+                    "uuid": "c1b42fe7-2fa6-43c3-aa32-402ca00050d1"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of H103",
+                    "pos": {
+                        "x": 122.059861,
+                        "y": 72.02
+                    },
+                    "uuid": "f6f83ac7-dff8-4dee-8e00-d4ce5b17f4a5"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4500 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 99.04,
+                        "y": 71.99
+                    },
+                    "uuid": "72e05464-a7ab-4cba-a736-ab015b7ca527"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of H101",
+                    "pos": {
+                        "x": 102.29,
+                        "y": 71.99
+                    },
+                    "uuid": "c4270161-a918-4be8-8dbd-6fbb6d92f9f7"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4500 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 122.09,
+                        "y": 95.23
+                    },
+                    "uuid": "a84d02f0-b6f1-4013-b99e-825fb18255fb"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of H102",
+                    "pos": {
+                        "x": 122.09,
+                        "y": 91.98
+                    },
+                    "uuid": "08cb4dc4-5d90-4607-8831-b1309cd29269"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 116.277499,
+                        "y": 86.735
+                    },
+                    "uuid": "1b5ea917-fadb-4bdc-875b-84ab713ee50a"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 111.292499,
+                        "y": 84.865
+                    },
+                    "uuid": "3507dbb4-4603-487f-a974-be8e7154b3d5"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 116.187499,
+                        "y": 81.795
+                    },
+                    "uuid": "5e3b128d-3694-4a2c-9e2f-c99c5376b976"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.2700 mm",
+                    "pos": {
+                        "x": 114.262499,
+                        "y": 75.063
+                    },
+                    "uuid": "09db7b5e-fb6e-4f91-a4dc-d0d5d401ecff"
+                },
+                {
+                    "description": "Pad 3 [/Vped] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "5e291eb9-aaaf-499e-9c20-8a3de5c05373"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.7700 mm",
+                    "pos": {
+                        "x": 115.427498,
+                        "y": 86.815
+                    },
+                    "uuid": "47e371e4-1280-4a34-b43d-bbda7041496d"
+                },
+                {
+                    "description": "Pad 1 [/Vped] of R32 on F.Cu",
+                    "pos": {
+                        "x": 115.427498,
+                        "y": 86.815
+                    },
+                    "uuid": "f6b552a8-802b-4de2-aa47-72eceb6f6c5c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.0212 mm",
+                    "pos": {
+                        "x": 115.517499,
+                        "y": 75.048
+                    },
+                    "uuid": "7832487d-839c-4812-8ac1-dc051f88cefe"
+                },
+                {
+                    "description": "Pad 3 [/Vped] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "5e291eb9-aaaf-499e-9c20-8a3de5c05373"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "12ce84e8-6470-42e5-8908-be0affbdcd75"
+                },
+                {
+                    "description": "Pad 3 [/Vped] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "5e291eb9-aaaf-499e-9c20-8a3de5c05373"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.0071 mm",
+                    "pos": {
+                        "x": 115.527499,
+                        "y": 75.068
+                    },
+                    "uuid": "d14815fa-4b50-4f40-ae9f-639c3041ca30"
+                },
+                {
+                    "description": "Pad 3 [/Vped] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 115.532499,
+                        "y": 75.063
+                    },
+                    "uuid": "5e291eb9-aaaf-499e-9c20-8a3de5c05373"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [+5V] on F.Cu, length 0.5800 mm",
+                    "pos": {
+                        "x": 110.4175,
+                        "y": 87.394999
+                    },
+                    "uuid": "c9ce95b5-7b7d-49a8-b147-e7df140e8647"
+                },
+                {
+                    "description": "Pad 2 [GND] of R28 on F.Cu",
+                    "pos": {
+                        "x": 110.4175,
+                        "y": 86.815
+                    },
+                    "uuid": "3f6bacda-bf6f-4c0f-9f63-0c3815fd5026"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 102.29,
+                        "y": 68.74
+                    },
+                    "uuid": "c1b42fe7-2fa6-43c3-aa32-402ca00050d1"
+                },
+                {
+                    "description": "Reference field of D4",
+                    "pos": {
+                        "x": 111.567499,
+                        "y": 68.265
+                    },
+                    "uuid": "0fbcad63-1320-4d7c-9438-e9714924bc48"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 102.29,
+                        "y": 68.74
+                    },
+                    "uuid": "c1b42fe7-2fa6-43c3-aa32-402ca00050d1"
+                },
+                {
+                    "description": "Reference field of H103",
+                    "pos": {
+                        "x": 122.059861,
+                        "y": 68.27
+                    },
+                    "uuid": "39509c32-180c-4e16-b615-c63b0b39f42e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 102.29,
+                        "y": 71.99
+                    },
+                    "uuid": "a548cdfd-fb4f-4bb0-9f61-47d339b16824"
+                },
+                {
+                    "description": "Reference field of H101",
+                    "pos": {
+                        "x": 102.29,
+                        "y": 68.24
+                    },
+                    "uuid": "f442856e-7b4a-4513-b65b-20c2dd270d01"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint 'D_SOD-323' does not match copy in library 'Diode_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D3",
+                    "pos": {
+                        "x": 108.357499,
+                        "y": 83.545
+                    },
+                    "uuid": "c09e20d2-ca83-41f6-8a33-32c55e22b31e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 100.61,
+                        "y": 87.65
+                    },
+                    "uuid": "6b6717ca-549b-4d47-8632-b2735dbfedd6"
+                },
+                {
+                    "description": "Reference field of H104",
+                    "pos": {
+                        "x": 102.29,
+                        "y": 88.23
+                    },
+                    "uuid": "ff895cfc-235a-4c1b-913a-2866ce50e6da"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 100.61,
+                        "y": 79.92
+                    },
+                    "uuid": "649e0ea2-55cc-4741-af3e-1d9e541d3950"
+                },
+                {
+                    "description": "Reference field of H104",
+                    "pos": {
+                        "x": 102.29,
+                        "y": 88.23
+                    },
+                    "uuid": "ff895cfc-235a-4c1b-913a-2866ce50e6da"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D2 on F.Silkscreen",
+                    "pos": {
+                        "x": 103.867499,
+                        "y": 89.0725
+                    },
+                    "uuid": "2008ac1e-42bc-4e30-9450-526aecd6b979"
+                },
+                {
+                    "description": "Reference field of H104",
+                    "pos": {
+                        "x": 102.29,
+                        "y": 88.23
+                    },
+                    "uuid": "ff895cfc-235a-4c1b-913a-2866ce50e6da"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R31",
+                    "pos": {
+                        "x": 109.382498,
+                        "y": 84.734998
+                    },
+                    "uuid": "03c01240-3aca-4b6a-9824-0f643c78598c"
+                },
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.207499,
+                        "y": 81.935
+                    },
+                    "uuid": "791956e4-af48-4af9-90c0-b950f4fc67cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R31",
+                    "pos": {
+                        "x": 109.382498,
+                        "y": 84.734998
+                    },
+                    "uuid": "03c01240-3aca-4b6a-9824-0f643c78598c"
+                },
+                {
+                    "description": "Reference field of D3",
+                    "pos": {
+                        "x": 110.2075,
+                        "y": 83.545
+                    },
+                    "uuid": "06f45e31-a549-4f7c-b991-e9b99b5d2206"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of D2",
+                    "pos": {
+                        "x": 103.017499,
+                        "y": 85.5625
+                    },
+                    "uuid": "57da0eb5-9e9e-4f21-9824-725dc5d1e17c"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 103.37,
+                        "y": 79.92
+                    },
+                    "uuid": "72807bc3-0432-4450-8a55-474e5ec5a6d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R30",
+                    "pos": {
+                        "x": 105.09,
+                        "y": 76.11
+                    },
+                    "uuid": "57a92d5e-805d-484b-aa8e-84102b790f5b"
+                },
+                {
+                    "description": "Segment of D1 on F.Silkscreen",
+                    "pos": {
+                        "x": 103.9625,
+                        "y": 77.24
+                    },
+                    "uuid": "9650d2e9-4f70-4b0a-946b-a8b1cefa7c71"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C39",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 72.69
+                    },
+                    "uuid": "b0e1000a-351c-4f87-af2c-e62994fb0e99"
+                },
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.107499,
+                        "y": 72.395
+                    },
+                    "uuid": "f4a3fc9c-4f1d-40f5-a7f7-f73ec9b56130"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R29",
+                    "pos": {
+                        "x": 112.882498,
+                        "y": 85.455
+                    },
+                    "uuid": "00a0adcf-8fb8-4eff-9085-dbd64ec9d720"
+                },
+                {
+                    "description": "Reference field of C37",
+                    "pos": {
+                        "x": 114.477499,
+                        "y": 84.455
+                    },
+                    "uuid": "f87ca810-cb5b-47ee-b1e4-fd579622c400"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R32",
+                    "pos": {
+                        "x": 115.907499,
+                        "y": 85.32
+                    },
+                    "uuid": "9c8903b2-1edf-4163-a13b-8a13ad952d94"
+                },
+                {
+                    "description": "Reference field of C37",
+                    "pos": {
+                        "x": 114.477499,
+                        "y": 84.455
+                    },
+                    "uuid": "f87ca810-cb5b-47ee-b1e4-fd579622c400"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U9 on F.Silkscreen",
+                    "pos": {
+                        "x": 112.597499,
+                        "y": 83.71
+                    },
+                    "uuid": "28435a32-4dcd-4504-a114-8eba328001c7"
+                },
+                {
+                    "description": "Reference field of C37",
+                    "pos": {
+                        "x": 114.477499,
+                        "y": 84.455
+                    },
+                    "uuid": "f87ca810-cb5b-47ee-b1e4-fd579622c400"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C36",
+                    "pos": {
+                        "x": 118.347499,
+                        "y": 81.535
+                    },
+                    "uuid": "649b9d62-2a21-492a-ba73-8cf05c979971"
+                },
+                {
+                    "description": "Reference field of C38",
+                    "pos": {
+                        "x": 117.237499,
+                        "y": 80.885
+                    },
+                    "uuid": "a149cd19-208b-40c2-b535-fbaa3bfe734f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of D3",
+                    "pos": {
+                        "x": 110.2075,
+                        "y": 83.545
+                    },
+                    "uuid": "06f45e31-a549-4f7c-b991-e9b99b5d2206"
+                },
+                {
+                    "description": "Pad 2 [/Detector_Out_A] of R31 on F.Cu",
+                    "pos": {
+                        "x": 110.552498,
+                        "y": 84.224999
+                    },
+                    "uuid": "55b17ec4-448d-4da5-9f06-4afe03e8851f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R29",
+                    "pos": {
+                        "x": 112.882498,
+                        "y": 85.455
+                    },
+                    "uuid": "00a0adcf-8fb8-4eff-9085-dbd64ec9d720"
+                },
+                {
+                    "description": "Pad 2 [GND] of U9 on F.Cu",
+                    "pos": {
+                        "x": 112.262499,
+                        "y": 84.88
+                    },
+                    "uuid": "19e7bdc0-bf1d-4597-b9da-c20e01919c79"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R29",
+                    "pos": {
+                        "x": 112.882498,
+                        "y": 85.455
+                    },
+                    "uuid": "00a0adcf-8fb8-4eff-9085-dbd64ec9d720"
+                },
+                {
+                    "description": "Pad 3 [/V_thresh_A] of U9 on F.Cu",
+                    "pos": {
+                        "x": 112.262499,
+                        "y": 85.53
+                    },
+                    "uuid": "082990d2-6db5-4a35-b25c-ab3433b09270"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of D2",
+                    "pos": {
+                        "x": 103.017499,
+                        "y": 85.5625
+                    },
+                    "uuid": "57da0eb5-9e9e-4f21-9824-725dc5d1e17c"
+                },
+                {
+                    "description": "PTH pad 4 [+5V] of J1",
+                    "pos": {
+                        "x": 101.99,
+                        "y": 86.27
+                    },
+                    "uuid": "7a65d0a0-56a7-45d5-a8e5-35c9abfb9176"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R29",
+                    "pos": {
+                        "x": 112.882498,
+                        "y": 85.455
+                    },
+                    "uuid": "00a0adcf-8fb8-4eff-9085-dbd64ec9d720"
+                },
+                {
+                    "description": "Pad 4 [/OUT] of U9 on F.Cu",
+                    "pos": {
+                        "x": 114.182499,
+                        "y": 85.53
+                    },
+                    "uuid": "418feab9-543a-4ee0-bfa1-5e843eaac2d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R32",
+                    "pos": {
+                        "x": 115.907499,
+                        "y": 85.32
+                    },
+                    "uuid": "9c8903b2-1edf-4163-a13b-8a13ad952d94"
+                },
+                {
+                    "description": "Pad 1 [GND] of C37 on F.Cu",
+                    "pos": {
+                        "x": 115.637499,
+                        "y": 84.935
+                    },
+                    "uuid": "6b1f443a-892d-4302-b93a-45d61d5560b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C37",
+                    "pos": {
+                        "x": 114.477499,
+                        "y": 84.455
+                    },
+                    "uuid": "f87ca810-cb5b-47ee-b1e4-fd579622c400"
+                },
+                {
+                    "description": "Pad 4 [/OUT] of U9 on F.Cu",
+                    "pos": {
+                        "x": 114.182499,
+                        "y": 85.53
+                    },
+                    "uuid": "418feab9-543a-4ee0-bfa1-5e843eaac2d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C38",
+                    "pos": {
+                        "x": 117.237499,
+                        "y": 80.885
+                    },
+                    "uuid": "a149cd19-208b-40c2-b535-fbaa3bfe734f"
+                },
+                {
+                    "description": "Pad 7 [+5V] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 116.802499,
+                        "y": 80.487
+                    },
+                    "uuid": "4386548b-ca0c-4dd5-aee0-3d1ab28cc94a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C37",
+                    "pos": {
+                        "x": 114.477499,
+                        "y": 84.455
+                    },
+                    "uuid": "f87ca810-cb5b-47ee-b1e4-fd579622c400"
+                },
+                {
+                    "description": "Pad 5 [+5V] of U9 on F.Cu",
+                    "pos": {
+                        "x": 114.182499,
+                        "y": 84.23
+                    },
+                    "uuid": "110becc2-31ca-4fe8-990c-88c72c6a7a0e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C35",
+                    "pos": {
+                        "x": 117.252499,
+                        "y": 76.447
+                    },
+                    "uuid": "8be9e394-2461-4e01-bd12-fa2dc5067121"
+                },
+                {
+                    "description": "Pad 9 [GND] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 116.167499,
+                        "y": 77.775
+                    },
+                    "uuid": "1bf326b3-c60b-4a9c-8fef-8858f7de62be"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C36",
+                    "pos": {
+                        "x": 118.347499,
+                        "y": 81.535
+                    },
+                    "uuid": "649b9d62-2a21-492a-ba73-8cf05c979971"
+                },
+                {
+                    "description": "Pad 8 [+5V] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 118.072499,
+                        "y": 80.487
+                    },
+                    "uuid": "6dd94839-2e42-4bb7-bb69-7d3b2da5f808"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C38",
+                    "pos": {
+                        "x": 117.237499,
+                        "y": 80.885
+                    },
+                    "uuid": "a149cd19-208b-40c2-b535-fbaa3bfe734f"
+                },
+                {
+                    "description": "Pad 8 [+5V] of IC1 on F.Cu",
+                    "pos": {
+                        "x": 118.072499,
+                        "y": 80.487
+                    },
+                    "uuid": "6dd94839-2e42-4bb7-bb69-7d3b2da5f808"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C36",
+                    "pos": {
+                        "x": 118.347499,
+                        "y": 81.535
+                    },
+                    "uuid": "649b9d62-2a21-492a-ba73-8cf05c979971"
+                },
+                {
+                    "description": "Pad 2 [+5V] of C38 on F.Cu",
+                    "pos": {
+                        "x": 117.717499,
+                        "y": 82.045
+                    },
+                    "uuid": "5dec881a-c90d-4611-9eb1-1c272cc5add0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R32",
+                    "pos": {
+                        "x": 115.907499,
+                        "y": 85.32
+                    },
+                    "uuid": "9c8903b2-1edf-4163-a13b-8a13ad952d94"
+                },
+                {
+                    "description": "Pad 4 [/OUT] of U9 on F.Cu",
+                    "pos": {
+                        "x": 114.182499,
+                        "y": 85.53
+                    },
+                    "uuid": "418feab9-543a-4ee0-bfa1-5e843eaac2d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}
