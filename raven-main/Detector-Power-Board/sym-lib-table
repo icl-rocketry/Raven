@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CSD16556Q5B") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_CSD16556Q5B/KiCADv6/2026-07-30_15-29-19.kicad_sym") (options "") (descr ""))
+	(lib (name "STPS20M100SG-TR") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_STPS20M100SG-TR/KiCADv6/2026-07-30_15-50-22.kicad_sym") (options "") (descr ""))
+	(lib (name "Transformer_Wurth_WE-FLEX") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_749196141/KiCad/symbols/Transformer_Wurth_WE-FLEX.kicad_sym") (options "") (descr ""))
+)
