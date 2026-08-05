@@ -404,6 +404,293 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -1210,6 +1497,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SMAJ26A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ26A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 26.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ26A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ26A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1647,280 +2088,6 @@
 				(pin bidirectional line
 					(at 5.842 0 180)
 					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SMAJ58A:SMAJ58A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D1"
-				(at 6.35 0.3175 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMAJ58A"
-				(at 3.302 0.508 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at -16.256 7.874 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SMAJ58A, Uni-Directional TVS Diode, 400W, 2-Pin DO-214AC | Littelfuse SMAJ58A"
-				(at 0 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "Littelfuse Inc."
-				(at -18.034 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "DO-214 Bourns"
-				(at -15.494 0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at -14.224 -4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMAJ58A/Littelfuse/view-part/?ref=snap"
-				(at 0 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "SMAJ58A"
-				(at -16.51 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at -16.51 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SMAJ58A/Littelfuse/view-part/?ref=eda"
-				(at 0 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "SMAJ58A_0_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.905) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMAJ58A_1_0"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -2836,16 +3003,16 @@
 		(uuid "06eafb13-3329-4758-bed4-28da778cfe57")
 	)
 	(junction
+		(at 193.04 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c62ded8-3922-4725-970b-35ed3a089ba8")
+	)
+	(junction
 		(at 135.89 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "182072b3-ba63-4597-8285-1b6f9e4f30da")
-	)
-	(junction
-		(at 193.04 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "453fd62f-5480-4c42-adb6-41e0e8808668")
 	)
 	(junction
 		(at 62.23 68.58)
@@ -2866,16 +3033,34 @@
 		(uuid "4dc177eb-e15f-4627-8697-5c4016ce4c45")
 	)
 	(junction
-		(at 256.54 71.12)
+		(at 49.53 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5fc3fb39-45d5-4f16-b139-a81f12e1905a")
+		(uuid "5981593f-607b-4b5a-bae8-191983cb8daa")
+	)
+	(junction
+		(at 57.15 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68f35594-c9a8-4745-9204-adfcfd135029")
 	)
 	(junction
 		(at 54.61 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a183112-2c3e-46de-bfb8-95779bc12a12")
+	)
+	(junction
+		(at 54.61 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f237958-e92a-42ec-aa7d-af83fded1088")
+	)
+	(junction
+		(at 256.54 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84fc5766-c964-4351-b753-37a788bc57c6")
 	)
 	(junction
 		(at 173.99 44.45)
@@ -2906,6 +3091,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8c21cf5-7162-4de8-9e7d-cdea39817a62")
+	)
+	(junction
+		(at 256.54 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b905817f-7734-4f19-9ddc-b2aba1b59a1e")
 	)
 	(junction
 		(at 67.31 60.96)
@@ -3035,13 +3226,13 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 71.12) (xy 257.81 71.12)
+			(xy 52.07 68.58) (xy 54.61 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "280ab5f1-d4e2-44f2-b55a-3a656fd6c04e")
+		(uuid "27bb0c91-c422-4501-95b3-ec958748d06a")
 	)
 	(wire
 		(pts
@@ -3165,6 +3356,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 83.82) (xy 256.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4803628e-d28b-4fd7-9105-be229a0b39c3")
+	)
+	(wire
+		(pts
 			(xy 161.29 45.72) (xy 161.29 44.45)
 		)
 		(stroke
@@ -3172,16 +3373,6 @@
 			(type default)
 		)
 		(uuid "484a7bb5-94fb-4a02-8132-80b4c3112776")
-	)
-	(wire
-		(pts
-			(xy 256.54 71.12) (xy 256.54 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a2ed86c-7c7c-4c62-b520-e06766a85cee")
 	)
 	(wire
 		(pts
@@ -3375,6 +3566,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 100.33) (xy 54.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870bccb2-d19f-4207-86b0-2f244e364f10")
+	)
+	(wire
+		(pts
 			(xy 71.12 73.66) (xy 66.04 73.66)
 		)
 		(stroke
@@ -3392,6 +3593,36 @@
 			(type default)
 		)
 		(uuid "8827da21-0210-498a-85d0-d57439674226")
+	)
+	(wire
+		(pts
+			(xy 256.54 85.09) (xy 261.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885ac951-3736-47ee-9fe5-7afb5263e1d8")
+	)
+	(wire
+		(pts
+			(xy 39.37 91.44) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a77d0d0-782c-4003-b30a-71ece6e3b639")
+	)
+	(wire
+		(pts
+			(xy 256.54 85.09) (xy 256.54 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfc9ba7-2193-4720-b4cc-d843674f0bc3")
 	)
 	(wire
 		(pts
@@ -3495,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 100.33) (xy 54.61 100.33)
+			(xy 39.37 100.33) (xy 49.53 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3532,6 +3763,16 @@
 			(type default)
 		)
 		(uuid "ae09f233-9f5b-41a8-914e-c5703085fd88")
+	)
+	(wire
+		(pts
+			(xy 52.07 60.96) (xy 57.15 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2091169-61b8-44e6-931f-965992ddc381")
 	)
 	(wire
 		(pts
@@ -3615,6 +3856,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 71.12) (xy 256.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45f9410-4eec-43ca-a4de-ec8be9dfa54c")
+	)
+	(wire
+		(pts
 			(xy 104.14 113.03) (xy 104.14 116.84)
 		)
 		(stroke
@@ -3622,6 +3873,16 @@
 			(type default)
 		)
 		(uuid "c8a02baf-8e88-477e-ab31-f229dec77d44")
+	)
+	(wire
+		(pts
+			(xy 49.53 91.44) (xy 49.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bebdc6-92cd-4e12-8f4c-296fc45c4e0c")
 	)
 	(wire
 		(pts
@@ -3745,6 +4006,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 71.12) (xy 257.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5221bc4-579d-40a9-a6ec-2e4cb1f0630b")
+	)
+	(wire
+		(pts
 			(xy 219.71 96.52) (xy 214.63 96.52)
 		)
 		(stroke
@@ -3794,7 +4065,7 @@
 		(uuid "1631e2a1-60b7-4c6c-8a1d-190b8e1e4b9b")
 	)
 	(label "V_thresh_A"
-		(at 256.54 81.28 0)
+		(at 256.54 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5497,6 +5768,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 46.99 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ac83e1-7364-4f3d-8c43-ac10287f396e")
+		(property "Reference" "J3"
+			(at 52.07 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 52.07 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6faa8354-c6a3-4bdb-b8e3-501b3780862b")
+		)
+		(pin "1"
+			(uuid "031d8464-8fe4-4972-a6c6-e681509bec58")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+48V")
 		(at 39.37 73.66 0)
 		(unit 1)
@@ -5899,8 +6252,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SMAJ58A:SMAJ58A")
-		(at 196.85 24.13 90)
+		(lib_id "Diode:SMAJ26A")
+		(at 196.85 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5908,9 +6261,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "860bc1b9-b44b-4cd7-9b26-1919ad10129a")
+		(fields_autoplaced yes)
+		(uuid "84d2ad1d-d398-4362-aed6-c206f745d188")
 		(property "Reference" "D1"
-			(at 196.5325 17.78 90)
+			(at 196.85 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5919,8 +6273,8 @@
 				)
 			)
 		)
-		(property "Value" "SMAJ58A"
-			(at 196.342 20.828 90)
+		(property "Value" "SMAJ26A"
+			(at 196.85 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5930,7 +6284,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 188.976 40.386 0)
+			(at 196.85 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5938,10 +6292,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 195.58 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 26.0Vr, SMA(DO-214AC)"
 			(at 196.85 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -5952,107 +6316,11 @@
 				)
 			)
 		)
-		(property "Description" "SMAJ58A, Uni-Directional TVS Diode, 400W, 2-Pin DO-214AC | Littelfuse SMAJ58A"
-			(at 185.166 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Littelfuse Inc."
-			(at 194.056 42.164 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DO-214 Bourns"
-			(at 196.342 39.624 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 200.914 38.354 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SMAJ58A/Littelfuse/view-part/?ref=snap"
-			(at 185.166 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "SMAJ58A"
-			(at 191.77 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 199.39 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SMAJ58A/Littelfuse/view-part/?ref=eda"
-			(at 185.166 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(pin "2"
-			(uuid "981be418-bf41-4919-901a-d9b672c13684")
+			(uuid "98cff42e-1a78-4d61-9b03-8d35133f865a")
 		)
 		(pin "1"
-			(uuid "557d89ab-5fc8-4b1a-9ba9-cf3f1b908e00")
+			(uuid "af235dc6-96b4-43d5-bb77-cbbaaae92945")
 		)
 		(instances
 			(project "Detector-Proto-Board"
@@ -6233,6 +6501,85 @@
 			(project "Detector-Proto-Board"
 				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 266.7 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88b3fa04-069f-407e-a275-b3e3e8642d59")
+		(property "Reference" "J2"
+			(at 269.24 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 269.24 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 266.7 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42cc4ced-de2e-4d78-a830-78338116d7ee")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6833,6 +7180,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 52.07 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b967b1ec-4be1-4aeb-a9c7-1bde46b045c4")
+		(property "Reference" "R36"
+			(at 49.53 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1G"
+			(at 49.53 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 53.848 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bb19ae8-f03a-4722-932c-12fc0895a4d3")
+		)
+		(pin "2"
+			(uuid "af277799-6bf6-4ec7-9d04-942d31bf6ba3")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 57.15 64.77 180)
 		(unit 1)
 		(body_style 1)
@@ -7252,6 +7681,88 @@
 			(project "Detector-Proto-Board"
 				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cea10e77-e898-4647-9e6e-cac2d05a9c96")
+		(property "Reference" "R1"
+			(at 259.08 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 259.08 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254.762 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 256.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "756018af-82bc-4d4f-9642-d61756085cee")
+		)
+		(pin "1"
+			(uuid "3bacba42-d498-4db7-a3f4-d524840910f4")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "R1")
 					(unit 1)
 				)
 			)
