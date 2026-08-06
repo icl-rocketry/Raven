@@ -11,8 +11,8 @@ silicon-diode detector channels and logs events.
 
 A cosmic particle hits a reverse-biased photodiode and dumps a few femtocoulombs
 of charge. A charge-sensitive amplifier turns that into a ~7 mV pulse, a
-comparator checks it against a tunable threshold, and the ESP32 counts the
-resulting digital edge on a hardware interrupt. Two diodes on two independent
+comparator checks it against a tunable threshold and the output signal is processed
+by a seperate Pickle Rick board. Two diodes on two independent
 channels double the sensitive area without doubling the noise.
 
 ## Repository layout
@@ -22,10 +22,8 @@ Using the ICLR Board Template
 
 | Sheet | Contents |
 |-------|----------|
-| Root | ESP32-S3, status LEDs, connectors, test points |
-| Power | Three isolated rails off a ~7.4V battery: +50V bias, +5V analogue, +3.3V digital |
-| USB | USB-C receptacle, CC resistors, ESD protection |
-| CAN-BUS | SN65HVD230 transceiver, termination, ESD |
+| Root | status LEDs, connectors, test points |
+| Power | Three isolated rails off a ~7.4V battery: +25V bias, +5V analogue, +3.3V digital |
 | Detector | The signal chain: diodes, charge amps, comparators (2 channels) |
 
 ## specs
