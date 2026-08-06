@@ -404,6 +404,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
@@ -3009,6 +3132,12 @@
 		(uuid "0c62ded8-3922-4725-970b-35ed3a089ba8")
 	)
 	(junction
+		(at 39.37 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10f1ed55-db5c-48b6-8765-64f60d37bccd")
+	)
+	(junction
 		(at 135.89 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3051,6 +3180,18 @@
 		(uuid "6a183112-2c3e-46de-bfb8-95779bc12a12")
 	)
 	(junction
+		(at 34.29 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ec5067a-8446-4998-a044-2bf1efc0ce29")
+	)
+	(junction
+		(at 104.14 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "789cb207-1f10-495e-a08f-1013f914f781")
+	)
+	(junction
 		(at 54.61 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3063,22 +3204,28 @@
 		(uuid "84fc5766-c964-4351-b753-37a788bc57c6")
 	)
 	(junction
+		(at 168.91 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5efd105-99e6-4a85-97b8-a07b67b2e2ca")
+	)
+	(junction
 		(at 173.99 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a92ffc13-45f1-4110-88a6-4d16a5682fa3")
 	)
 	(junction
-		(at 104.14 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa11728a-e4f8-481d-a683-b0308c93b051")
-	)
-	(junction
 		(at 172.72 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab9be893-f4ba-4464-a480-e1808cea2114")
+	)
+	(junction
+		(at 104.14 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add2be52-4dd9-4f2a-a2d7-c763df7d3912")
 	)
 	(junction
 		(at 39.37 91.44)
@@ -3099,6 +3246,12 @@
 		(uuid "b905817f-7734-4f19-9ddc-b2aba1b59a1e")
 	)
 	(junction
+		(at 154.94 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c79c0fa8-1df1-40ea-9de9-5d5333818c72")
+	)
+	(junction
 		(at 67.31 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3109,6 +3262,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d25d96c1-0944-486d-bb2a-37934b70b4cd")
+	)
+	(junction
+		(at 205.315 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da269171-c779-4155-a162-514024634f27")
 	)
 	(junction
 		(at 52.07 35.56)
@@ -3336,6 +3495,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 91.44) (xy 39.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b29b213-eda6-4192-8a74-3b7b48ff0360")
+	)
+	(wire
+		(pts
 			(xy 46.99 35.56) (xy 54.61 35.56)
 		)
 		(stroke
@@ -3356,6 +3525,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 100.33) (xy 39.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455dddd1-4be0-4005-8ae1-40eb81ad2fc6")
+	)
+	(wire
+		(pts
 			(xy 256.54 83.82) (xy 256.54 85.09)
 		)
 		(stroke
@@ -3366,6 +3545,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 110.49) (xy 104.14 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48481bb3-bcdb-4eb5-b274-29ae9d1660ba")
+	)
+	(wire
+		(pts
 			(xy 161.29 45.72) (xy 161.29 44.45)
 		)
 		(stroke
@@ -3373,6 +3562,16 @@
 			(type default)
 		)
 		(uuid "484a7bb5-94fb-4a02-8132-80b4c3112776")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 104.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2bbfec-79b5-4699-b008-01a921bd5d03")
 	)
 	(wire
 		(pts
@@ -3416,7 +3615,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 104.14) (xy 161.29 104.14)
+			(xy 153.67 104.14) (xy 154.94 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3476,6 +3675,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 91.44) (xy 34.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7e0cae-a80a-49c4-bd36-37f1cd382bb4")
+	)
+	(wire
+		(pts
 			(xy 123.19 68.58) (xy 135.89 68.58)
 		)
 		(stroke
@@ -3506,7 +3715,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 35.56) (xy 193.04 35.56)
+			(xy 165.1 35.56) (xy 168.91 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3656,7 +3865,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 91.44) (xy 39.37 91.44)
+			(xy 22.86 91.44) (xy 34.29 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3706,6 +3915,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.315 24.13) (xy 209.55 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba421ae-5c82-446f-af99-5195231fb202")
+	)
+	(wire
+		(pts
 			(xy 116.84 128.27) (xy 116.84 132.08)
 		)
 		(stroke
@@ -3716,7 +3935,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 24.13) (xy 209.55 24.13)
+			(xy 200.66 24.13) (xy 205.315 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3753,16 +3972,6 @@
 			(type default)
 		)
 		(uuid "ad7fccd1-499b-43b4-9aec-7565aa48d90c")
-	)
-	(wire
-		(pts
-			(xy 104.14 124.46) (xy 104.14 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae09f233-9f5b-41a8-914e-c5703085fd88")
 	)
 	(wire
 		(pts
@@ -3856,6 +4065,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 124.46) (xy 104.14 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c449d5cb-f0be-4938-a34b-d26f4f68a6e5")
+	)
+	(wire
+		(pts
 			(xy 256.54 71.12) (xy 256.54 76.2)
 		)
 		(stroke
@@ -3866,7 +4085,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 113.03) (xy 104.14 116.84)
+			(xy 104.14 99.06) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3903,6 +4122,16 @@
 			(type default)
 		)
 		(uuid "dbda0d6c-5951-46aa-88cf-eec016c6104d")
+	)
+	(wire
+		(pts
+			(xy 168.91 35.56) (xy 193.04 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe49559-d7d0-408f-83bb-dd57640817dd")
 	)
 	(wire
 		(pts
@@ -4033,6 +4262,16 @@
 			(type default)
 		)
 		(uuid "f7563701-ea67-4fc9-8c68-1ad1ec939c33")
+	)
+	(wire
+		(pts
+			(xy 154.94 104.14) (xy 161.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb74dce-d564-49c0-a63f-b38361f0fda7")
 	)
 	(wire
 		(pts
@@ -4650,6 +4889,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1be335eb-df8d-45a3-97b5-cdef99cccf4f")
+		(property "Reference" "TP1"
+			(at 157.48 99.5679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OUT"
+			(at 157.48 102.1079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 160.02 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee926992-4c88-4fd8-bb87-4c6ecd99576e")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 104.14 135.89 0)
 		(unit 1)
@@ -5132,6 +5450,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 256.54 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46111f01-68e1-4973-a022-7d5eef6b5e42")
+		(property "Reference" "TP2"
+			(at 253.238 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_thresh"
+			(at 253.238 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 256.54 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 256.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40d7180b-a254-43a5-9749-27ae4fcb68ba")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 143.51 0)
 		(unit 1)
@@ -5211,7 +5606,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 104.14 113.03 0)
+		(at 104.14 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5222,7 +5617,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ff08529-f60d-41da-9bbf-7c892a39b4a2")
 		(property "Reference" "#PWR100"
-			(at 104.14 116.84 0)
+			(at 104.14 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5233,7 +5628,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 104.14 107.95 0)
+			(at 104.14 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5243,7 +5638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 113.03 0)
+			(at 104.14 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,7 +5649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 113.03 0)
+			(at 104.14 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5265,7 +5660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 113.03 0)
+			(at 104.14 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5319,7 +5714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-063_Horizontal"
+		(property "Footprint" "3224X:SOT_502E"
 			(at 261.62 72.898 90)
 			(hide yes)
 			(show_name no)
@@ -5605,6 +6000,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.315 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67cd8f40-121b-4b45-9856-bf88121482a8")
+		(property "Reference" "TP5"
+			(at 207.855 19.5579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.855 22.0979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 210.395 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.395 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.315 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad71daf4-adaf-4412-b3a5-98c56f242ac3")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 62.23 64.77 180)
 		(unit 1)
@@ -5615,7 +6089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bcea555-30eb-4b6a-90ac-e13ff0ff28e6")
-		(property "Reference" "C41"
+		(property "Reference" "C42"
 			(at 59.436 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5679,7 +6153,86 @@
 		(instances
 			(project "Detector-Proto-Board"
 				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
-					(reference "C41")
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f97c670-df83-43c3-983c-ddb4c45a071a")
+		(property "Reference" "TP4"
+			(at 171.45 30.9879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Detector_Out"
+			(at 171.45 33.5279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 173.99 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dad914d8-8c63-4ed3-a3a5-e092f3d0d615")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5801,7 +6354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 46.99 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5872,7 +6425,7 @@
 				)
 			)
 		)
-		(property "Value" "+50V"
+		(property "Value" "+25V"
 			(at 39.37 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,6 +6475,88 @@
 			(project "Detector-Proto-Board"
 				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79462da3-6424-428f-b10e-c2f3b1663237")
+		(property "Reference" "R38"
+			(at 106.68 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 106.68 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 102.362 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a908199-2e09-4924-9537-3d3be896093a")
+		)
+		(pin "2"
+			(uuid "d7ca4d06-873f-4ff1-859c-0169e16ec613")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -6540,7 +7175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 266.7 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7190,7 +7825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b967b1ec-4be1-4aeb-a9c7-1bde46b045c4")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 49.53 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7254,7 +7889,7 @@
 		(instances
 			(project "Detector-Proto-Board"
 				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -7720,7 +8355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254.762 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -8413,7 +9048,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 120.65 0)
+		(at 104.14 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8424,7 +9059,7 @@
 		(fields_autoplaced yes)
 		(uuid "db6ad8e5-188a-4b19-b051-d847528900c7")
 		(property "Reference" "R33"
-			(at 106.68 119.38 0)
+			(at 106.68 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8435,7 +9070,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 106.68 121.92 0)
+			(at 106.68 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8446,7 +9081,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.362 120.65 90)
+			(at 102.362 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8457,7 +9092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 120.65 0)
+			(at 104.14 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,7 +9103,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 120.65 0)
+			(at 104.14 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8939,7 +9574,7 @@
 				)
 			)
 		)
-		(property "Value" "+50V"
+		(property "Value" "+25V"
 			(at 173.99 22.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9072,6 +9707,165 @@
 			(project "Detector-Proto-Board"
 				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6caa7d4-cb17-4675-af87-673974a57377")
+		(property "Reference" "TP3"
+			(at 100.838 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vped"
+			(at 100.838 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 104.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4081107b-9faa-4c11-b33d-4ea7d8dfc2f9")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Optical:BPW34")
+		(at 34.29 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9700d81-4d64-4fff-bba1-2aa0f663c5a7")
+		(property "Reference" "D5"
+			(at 39.37 95.5928 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BPW34"
+			(at 39.37 98.1328 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+			(at 38.735 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81521/bpw34.pdf"
+			(at 34.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Silicon PIN Photodiode"
+			(at 34.29 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59512cd5-7cba-4f1e-8df7-09dd9e3e64a1")
+		)
+		(pin "1"
+			(uuid "5a3b934f-4424-4510-bd19-f8372f5df3d2")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "D5")
 					(unit 1)
 				)
 			)
