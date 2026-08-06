@@ -6,4 +6,5 @@
 	(lib (name "Transformer_SMD_Wurth") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_749196141/KiCad/footprints/Transformer_SMD_Wurth.pretty") (options "") (descr ""))
 	(lib (name "LM51571QRTERQ1") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_LM51571QRTERQ1/footprints.pretty") (options "") (descr ""))
 	(lib (name "SL43-E3-57T") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_SL43-E3-57T/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "DR127-3R3-R") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/DR127-3R3-R/KiCADv6/footprints.pretty") (options "") (descr ""))
 )
