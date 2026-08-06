@@ -4,7 +4,7 @@ Solid-state particle detector for a rocket payload. Detects cosmic radiation
 throughout flight and logs each hit with altitude, to build up counting
 statistics post-flight.
 
-Built in KiCad. Mixed-signal board: an ESP32-S3 reads two independent
+Built in KiCad. Mixed-signal board: the detector board reads two independent
 silicon-diode detector channels and logs events. 
 
 ## How it works 
@@ -23,8 +23,8 @@ Using the ICLR Board Template
 | Sheet | Contents |
 |-------|----------|
 | Root | status LEDs, connectors, test points |
-| Power | Three isolated rails off a ~7.4V battery: +25V bias, +5V analogue, +3.3V digital |
-| Detector | The signal chain: diodes, charge amps, comparators (2 channels) |
+| Power Board | Three isolated rails off a ~7.4V battery: +25V bias, +5V analogue, +3.3V digital |
+| Detector Board | The signal chain: diodes, charge amps, comparators (2 channels) |
 
 ## specs
 
