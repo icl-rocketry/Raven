@@ -42,8 +42,7 @@ complete; layout, bring-up, and firmware still to come.
 **Outstanding before layout:**
 - Confirm comparator edge polarity on the bench (rising vs falling) before
   writing interrupt firmware
-- Run ERC (check for missing PWR_FLAG on the +50V / +5V nets)
-- SD-card logging and altitude-sensor integration not yet started
+- Clear all ERC
 
 ## Firmware
 
