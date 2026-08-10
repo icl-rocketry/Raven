@@ -3,4 +3,5 @@
 	(lib (name "ADA4817-1ARDZ-R7") (type "KiCad") (uri "${KIPRJMOD}/ADA4817-1ARDZ-R7") (options "") (descr ""))
 	(lib (name "TLV3201AIDCKT") (type "KiCad") (uri "${KIPRJMOD}/TLV3201AIDCKT") (options "") (descr ""))
 	(lib (name "3224X") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_3224X-1-502E/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "Decor") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/Decor") (options "") (descr ""))
 )
