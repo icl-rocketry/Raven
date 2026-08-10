@@ -13622,7 +13622,7 @@
 		(layer "Edge.Cuts")
 		(uuid "95ac3f77-65fe-450b-9442-0e71b038a5c6")
 	)
-	(gr_text "Power board for Harrier v.1 2026"
+	(gr_text "Power board for Harrier v1.0 2026"
 		(at 119 108 0)
 		(layer "F.SilkS")
 		(uuid "6e3dbd08-3b06-40aa-be30-6853357677db")
@@ -13633,6 +13633,18 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Payload 2026"
+		(at 135 100 0)
+		(layer "B.SilkS")
+		(uuid "4e7ea6d5-6887-4534-8a9f-3f15e2cff25c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Designed by Luke Pugsley"
@@ -13647,8 +13659,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Power Board for HARRIER v.1 2026"
-		(at 142 96 0)
+	(gr_text "Power Board for HARRIER v1.0"
+		(at 141 96 0)
 		(layer "B.SilkS")
 		(uuid "491db981-f3f4-472e-8f01-c79b8af7d18d")
 		(effects
