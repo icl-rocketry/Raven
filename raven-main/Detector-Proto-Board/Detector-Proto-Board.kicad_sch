@@ -3138,6 +3138,12 @@
 		(uuid "182072b3-ba63-4597-8285-1b6f9e4f30da")
 	)
 	(junction
+		(at 232.41 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4640a215-511a-4906-8755-bba050006a74")
+	)
+	(junction
 		(at 62.23 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3226,12 +3232,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b324ed88-ce6b-4e4b-91ef-4d0167429c79")
-	)
-	(junction
-		(at 232.41 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8c21cf5-7162-4de8-9e7d-cdea39817a62")
 	)
 	(junction
 		(at 256.54 85.09)
@@ -3406,6 +3406,16 @@
 			(type default)
 		)
 		(uuid "29c9cf2a-eefb-4a2a-ac54-c1e7260a2bfa")
+	)
+	(wire
+		(pts
+			(xy 242.57 101.6) (xy 248.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a057bab-2a64-4b9a-b303-75106b6cb98e")
 	)
 	(wire
 		(pts
@@ -3609,6 +3619,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 101.6) (xy 234.95 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8518ae-ee6d-4f95-8e1c-7df97f123d2e")
+	)
+	(wire
+		(pts
 			(xy 153.67 104.14) (xy 154.94 104.14)
 		)
 		(stroke
@@ -3756,16 +3776,6 @@
 			(type default)
 		)
 		(uuid "80bdd3a0-a775-4308-961c-34ec91608ce7")
-	)
-	(wire
-		(pts
-			(xy 237.49 101.6) (xy 232.41 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8270030f-7cd6-47bd-8c68-0a6fd2efba28")
 	)
 	(wire
 		(pts
@@ -4089,6 +4099,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 101.6) (xy 262.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2d562c-4689-45de-90f9-0de6adbb6525")
+	)
+	(wire
+		(pts
 			(xy 49.53 91.44) (xy 49.53 100.33)
 		)
 		(stroke
@@ -4358,7 +4378,7 @@
 		(uuid "a3e40ce0-ae43-48bf-8016-b69817388409")
 	)
 	(label "Detector_Out_A"
-		(at 237.49 101.6 0)
+		(at 246.38 101.6 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7750,6 +7770,86 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 252.73 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aec43b79-6621-44ec-8643-ca0adbf019aa")
+		(property "Reference" "R3"
+			(at 252.73 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 252.73 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 252.73 103.378 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "915dfa69-d797-43ff-a052-89d3c21ede5a")
+		)
+		(pin "2"
+			(uuid "a83a7c01-c407-41e6-9580-f8e93db7d456")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 52.07 64.77 180)
 		(unit 1)
 		(body_style 1)
@@ -9566,6 +9666,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 262.89 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3fd419d-90c1-4534-8c98-437cb5821ebe")
+		(property "Reference" "#PWR03"
+			(at 262.89 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24a3160a-127e-41bc-af56-fd515616b270")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 22.86 95.25 0)
 		(unit 1)
@@ -9883,6 +10061,86 @@
 			(project "Detector-Proto-Board"
 				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcdf5057-93d3-4dfa-a99a-965a9f7e7d2e")
+		(property "Reference" "R2"
+			(at 238.76 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 238.76 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 238.76 103.378 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd3ffbf0-fc8e-407f-8b68-ede3bfc46813")
+		)
+		(pin "2"
+			(uuid "7ba4e74b-9a7d-4577-a8ca-f4d6eda82e47")
+		)
+		(instances
+			(project "Detector-Proto-Board"
+				(path "/8e9b2cb6-291f-43a2-81af-b7790dd07157"
+					(reference "R2")
 					(unit 1)
 				)
 			)
