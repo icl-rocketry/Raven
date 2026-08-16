@@ -7,4 +7,6 @@
 	(lib (name "LT8330IS6") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/LT8330IS6-TRMPBF/footprints.pretty") (options "") (descr ""))
 	(lib (name "PMEG4010BEA") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_PMEG4010BEA/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "CDR7D28MNNP-8R0NC") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_CDR7D28MNNP-8R0NC/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "LM317LCLPRE3") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/LM317LCLPRE3/footprints.pretty") (options "") (descr ""))
+	(lib (name "LM317AMDTNOPB") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/LM317AMDTNOPB/footprints.pretty") (options "") (descr ""))
 )

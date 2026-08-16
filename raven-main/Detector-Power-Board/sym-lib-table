@@ -8,4 +8,7 @@
 	(lib (name "2026-08-05_22-06-24") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_SL43-E3-57T/KiCADv6/2026-08-05_22-06-24.kicad_sym") (options "") (descr ""))
 	(lib (name "DR127") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/DR127-3R3-R/KiCADv6/2026-08-06_15-21-54.kicad_sym") (options "") (descr ""))
 	(lib (name "LT8830") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/LT8330IS6-TRMPBF/2026-08-11_20-09-31.kicad_sym") (options "") (descr ""))
+	(lib (name "XTPS562242DRLR") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/XTPS562242DRLR/2026-08-16_19-51-02.kicad_sym") (options "") (descr ""))
+	(lib (name "LMS1587CSX") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/LMS1587CSX/2026-08-16_20-28-10.kicad_sym") (options "") (descr ""))
+	(lib (name "LM317LCLPRE3") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/LM317LCLPRE3/2026-08-16_20-49-48.kicad_sym") (options "") (descr ""))
 )
