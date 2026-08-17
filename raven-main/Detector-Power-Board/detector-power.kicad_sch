@@ -1031,160 +1031,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Variable"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Variable"
-				(at -2.54 -1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Variable resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor variable potentiometer rheostat"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Variable_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.524) (xy 2.54 2.54) (xy 1.524 2.54) (xy 2.54 2.54) (xy -2.032 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Variable_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N4002"
 			(pin_numbers
 				(hide yes)
@@ -2293,6 +2139,12 @@
 		)
 	)
 	(junction
+		(at 125.73 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01be0f92-64fd-4cca-bec7-28e03a6f3cc3")
+	)
+	(junction
 		(at 110.49 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2345,12 +2197,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e958543-8daf-41b1-945f-d0df4f6af90b")
-	)
-	(junction
-		(at 125.73 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ec80d40-5d8d-454e-b92c-7666e4024f01")
 	)
 	(junction
 		(at 151.13 109.22)
@@ -2440,7 +2286,7 @@
 		(at 241.3 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af532fd9-f6fd-4e5d-889a-6b54682039b8")
+		(uuid "ab407199-fef4-4da1-8483-ddb862887606")
 	)
 	(junction
 		(at 118.11 170.18)
@@ -2658,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 86.36) (xy 140.97 86.36)
+			(xy 99.06 86.36) (xy 125.73 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +2850,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "63acf9e6-fce7-456d-bb5b-a2d166225904")
+		(uuid "5efc09bd-3067-41e6-bd41-35fbf78d0d8d")
+	)
+	(wire
+		(pts
+			(xy 125.73 86.36) (xy 140.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664e23c5-bf83-4cb9-a25d-4f168cd68ff7")
 	)
 	(wire
 		(pts
@@ -3555,16 +3411,6 @@
 			(type default)
 		)
 		(uuid "f725b608-54d4-43de-8039-c0a4b3765083")
-	)
-	(wire
-		(pts
-			(xy 99.06 86.36) (xy 125.73 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ce0fae-94c9-4ec3-ad2e-d70c568ebc13")
 	)
 	(wire
 		(pts
@@ -5270,88 +5116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Variable")
-		(at 125.73 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83d2bb10-d66c-404e-b87b-8bfa39275752")
-		(property "Reference" "R8"
-			(at 129.54 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Variable"
-			(at 129.54 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 123.952 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Variable resistor"
-			(at 125.73 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9856e8d1-e0d7-4e45-a56a-a5f65e8b840a")
-		)
-		(pin "2"
-			(uuid "5ae2d70e-bf57-4d4b-9022-236643084e32")
-		)
-		(instances
-			(project "detector-power"
-				(path "/7c9dd221-ef7c-445c-ac49-d326ea2b82e0"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Male")
 		(at 31.75 40.64 0)
 		(unit 1)
@@ -5699,7 +5463,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 27.94 0)
+		(at 241.3 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5710,7 +5474,7 @@
 		(fields_autoplaced yes)
 		(uuid "9658b576-bbb4-44a9-babc-ae364a7bcbc2")
 		(property "Reference" "R7"
-			(at 241.3 26.6699 0)
+			(at 243.84 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5721,7 +5485,7 @@
 			)
 		)
 		(property "Value" "720"
-			(at 241.3 29.2099 0)
+			(at 243.84 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5732,7 +5496,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 236.982 27.94 90)
+			(at 239.522 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5743,7 +5507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 27.94 0)
+			(at 241.3 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5754,7 +5518,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 27.94 0)
+			(at 241.3 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6498,7 +6262,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 74.93 0)
+		(at 125.73 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6509,7 +6273,7 @@
 		(fields_autoplaced yes)
 		(uuid "b07e2691-a358-4079-b648-9f6b76d8dae7")
 		(property "Reference" "R5"
-			(at 121.92 73.6599 0)
+			(at 128.27 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6520,7 +6284,7 @@
 			)
 		)
 		(property "Value" "4.56k"
-			(at 121.92 76.1999 0)
+			(at 128.27 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6531,7 +6295,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 117.602 74.93 90)
+			(at 123.952 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6542,7 +6306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 74.93 0)
+			(at 125.73 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6553,7 +6317,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 74.93 0)
+			(at 125.73 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7082,88 +6846,6 @@
 			(project "detector-power"
 				(path "/7c9dd221-ef7c-445c-ac49-d326ea2b82e0"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Variable")
-		(at 241.3 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d38b5280-abe2-4c8f-aa9d-1dea1cc7c700")
-		(property "Reference" "R4"
-			(at 245.11 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Variable"
-			(at 245.11 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 239.522 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Variable resistor"
-			(at 241.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc86667f-43d8-4c9e-bfe8-f6e471e4edd6")
-		)
-		(pin "2"
-			(uuid "61120eb8-7c77-4ec4-8796-4c2f9d92ee56")
-		)
-		(instances
-			(project "detector-power"
-				(path "/7c9dd221-ef7c-445c-ac49-d326ea2b82e0"
-					(reference "R4")
 					(unit 1)
 				)
 			)
