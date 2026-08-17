@@ -9,4 +9,5 @@
 	(lib (name "CDR7D28MNNP-8R0NC") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/ul_CDR7D28MNNP-8R0NC/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "LM317LCLPRE3") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/LM317LCLPRE3/footprints.pretty") (options "") (descr ""))
 	(lib (name "LM317AMDTNOPB") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/LM317AMDTNOPB/footprints.pretty") (options "") (descr ""))
+	(lib (name "Decor") (type "KiCad") (uri "D:/Luke/GitHub/Raven/raven-main/Decor") (options "") (descr ""))
 )
